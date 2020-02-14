@@ -28,7 +28,7 @@ public class ImageCompareUsingAShotDependency {
           //System.setProperty("webdriver.chrome.driver","write here path of chromedriver exe file");
         DesiredCapabilities dc = new DesiredCapabilities();
         dc.setCapability("marionette", false);
-        //FirefoxProfile fp = new FirefoxProfile();
+        //FirefoxProfile fp = new FirefoxProfile();////////////////////////////////////////
         WebDriver driver=new FirefoxDriver();
 
         driver.manage().timeouts().implicitlyWait(150,TimeUnit.SECONDS);
