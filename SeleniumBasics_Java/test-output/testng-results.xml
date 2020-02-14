@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="25845" started-at="2020-02-12T10:12:43 IST" finished-at="2020-02-12T10:13:08 IST">
+    <groups>
+    </groups>
+    <test name="Testng" duration-ms="25845" started-at="2020-02-12T10:12:43 IST" finished-at="2020-02-12T10:13:08 IST">
+      <class name="SeleniumBasics_Java.SeleniumBasics_Java.Testcases.ZeennyxInfoAboutATTestcase">
+        <test-method status="PASS" signature="ZeennyxInfoAboutATTestcase_JavaSele()[pri:0, instance:SeleniumBasics_Java.SeleniumBasics_Java.Testcases.ZeennyxInfoAboutATTestcase@6ee52dcd]" name="ZeennyxInfoAboutATTestcase_JavaSele" duration-ms="25812" started-at="2020-02-12T10:12:43 IST" finished-at="2020-02-12T10:13:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ZeennyxInfoAboutATTestcase_JavaSele -->
+      </class> <!-- SeleniumBasics_Java.SeleniumBasics_Java.Testcases.ZeennyxInfoAboutATTestcase -->
+    </test> <!-- Testng -->
+  </suite> <!-- Suite -->
+</testng-results>

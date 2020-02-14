@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite3" parallel="tests" thread-count="3">
+
+  <test  name="FirefoxTest1">
+   <parameter name="sbrowserName" value="firefox" />
+    <classes>
+      <class name="CrossBrowserTestingInJavaSelenium.MultiBrowserTest"/>
+    </classes>
+  </test> <!-- Test1 -->
+  
+  <test  name="ChromeTest2">
+   <parameter name="sbrowserName" value="chrome" />
+    <classes>
+      <class name="CrossBrowserTestingInJavaSelenium.MultiBrowserTest"/>
+    </classes>
+  </test> 
+  
+  <test  name="IETest3">
+   <parameter name="sbrowserName" value="ie" />
+    <classes>
+      <class name="CrossBrowserTestingInJavaSelenium.MultiBrowserTest"/>
+    </classes>
+  </test> 
+  
+  
+</suite> <!-- Suite1 -->

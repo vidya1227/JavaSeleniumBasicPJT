@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite1]">
+  <test thread-count="5" name="IETest3(failed)">
+    <parameter name="sbrowserName" value="ie"/>
+    <classes>
+      <class name="CrossBrowserTestingInJavaSelenium.MultiBrowserTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="Test1"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- CrossBrowserTestingInJavaSelenium.MultiBrowserTest -->
+    </classes>
+  </test> <!-- IETest3(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
