@@ -49,7 +49,7 @@ public class BasicExtentReport {
         htmlReporter.config().setDocumentTitle("Extent Report Demo");
         htmlReporter.config().setReportName("Test Report");
         htmlReporter.config().setTheme(Theme.STANDARD);
-        htmlReporter.config().setTimeStampFormat("EEEE, MMMM dd, yyyy, hh:mm a '('zzz')'");
+        //htmlReporter.config().setTimeStampFormat("EEEE, MMMM dd, yyyy, hh:mm a '('zzz')'");
     }
      
     @Test

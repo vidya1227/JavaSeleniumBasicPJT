@@ -27,7 +27,7 @@ public class ImageComparision2 {
    //To get current date and time to the snapshot
  	public static String GetCurrentDateTime()
  	{
- 		DateFormat CustomFormat=new SimpleDateFormat("MM_dd_yyyy_hh_mm_ss");
+ 		DateFormat CustomFormat=new SimpleDateFormat("MM_dd_yyyy_hh_mm_ss");//////
  		
  		Date CurrentDate=new Date();
  		

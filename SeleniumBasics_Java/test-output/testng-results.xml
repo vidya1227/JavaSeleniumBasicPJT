@@ -1,17 +1,308 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="2" failed="2" ignored="2" total="8" passed="2">
   <reporter-output>
+    <line>
+      <![CDATA[Setting up reports and test is getting ready]]>
+    </line>
+    <line>
+      <![CDATA[Setting done- Test can be started]]>
+    </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="25845" started-at="2020-02-12T10:12:43 IST" finished-at="2020-02-12T10:13:08 IST">
+  <suite name="Suite11" duration-ms="72" started-at="2020-02-17T10:52:52 IST" finished-at="2020-02-17T10:52:52 IST">
     <groups>
     </groups>
-    <test name="Testng" duration-ms="25845" started-at="2020-02-12T10:12:43 IST" finished-at="2020-02-12T10:13:08 IST">
-      <class name="SeleniumBasics_Java.SeleniumBasics_Java.Testcases.ZeennyxInfoAboutATTestcase">
-        <test-method status="PASS" signature="ZeennyxInfoAboutATTestcase_JavaSele()[pri:0, instance:SeleniumBasics_Java.SeleniumBasics_Java.Testcases.ZeennyxInfoAboutATTestcase@6ee52dcd]" name="ZeennyxInfoAboutATTestcase_JavaSele" duration-ms="25812" started-at="2020-02-12T10:12:43 IST" finished-at="2020-02-12T10:13:08 IST">
+    <test name="Test11" duration-ms="72" started-at="2020-02-17T10:52:52 IST" finished-at="2020-02-17T10:52:52 IST">
+      <class name="ReportForPlan.Testcase2">
+        <test-method status="FAIL" signature="Functionality2Test1()[pri:0, instance:ReportForPlan.Testcase2@3d921e20]" name="Functionality2Test1" duration-ms="1" started-at="2020-02-17T10:52:52 IST" finished-at="2020-02-17T10:52:52 IST">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at ReportForPlan.Testcase2.Functionality2Test1(Testcase2.java:12)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ZeennyxInfoAboutATTestcase_JavaSele -->
-      </class> <!-- SeleniumBasics_Java.SeleniumBasics_Java.Testcases.ZeennyxInfoAboutATTestcase -->
-    </test> <!-- Testng -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- Functionality2Test1 -->
+        <test-method status="FAIL" signature="getResult(org.testng.ITestResult)[pri:0, instance:ReportForPlan.Testcase2@3d921e20]" name="getResult" is-config="true" duration-ms="0" started-at="2020-02-17T10:52:52 IST" finished-at="2020-02-17T10:52:52 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Functionality2Test1 status=FAILURE method=Testcase2.Functionality2Test1()[pri:0, instance:ReportForPlan.Testcase2@3d921e20] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at ReportForPlan.BaseTest.getResult(BaseTest.java:48)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:658)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:642)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="SKIP" signature="Functionality2Test2()[pri:0, instance:ReportForPlan.Testcase2@3d921e20]" name="Functionality2Test2" duration-ms="0" started-at="2020-02-17T10:52:52 IST" finished-at="2020-02-17T10:52:52 IST">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at ReportForPlan.BaseTest.getResult(BaseTest.java:48)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:658)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:642)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Functionality2Test2 -->
+        <test-method status="SKIP" signature="getResult(org.testng.ITestResult)[pri:0, instance:ReportForPlan.Testcase2@3d921e20]" name="getResult" is-config="true" duration-ms="-1581916972426" started-at="2020-02-17T10:52:52 IST" finished-at="1970-01-01T05:30:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="SKIP" signature="Functionality2Test3()[pri:0, instance:ReportForPlan.Testcase2@3d921e20]" name="Functionality2Test3" duration-ms="0" started-at="2020-02-17T10:52:52 IST" finished-at="2020-02-17T10:52:52 IST">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at ReportForPlan.BaseTest.getResult(BaseTest.java:48)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:658)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:642)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Functionality2Test3 -->
+        <test-method status="SKIP" signature="getResult(org.testng.ITestResult)[pri:0, instance:ReportForPlan.Testcase2@3d921e20]" name="getResult" is-config="true" duration-ms="-1581916972430" started-at="2020-02-17T10:52:52 IST" finished-at="1970-01-01T05:30:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- ReportForPlan.Testcase2 -->
+      <class name="ReportForPlan.Testcase1">
+        <test-method status="PASS" signature="SetUpSuite()[pri:0, instance:ReportForPlan.Testcase1@3234e239]" name="SetUpSuite" is-config="true" duration-ms="132" started-at="2020-02-17T10:52:52 IST" finished-at="2020-02-17T10:52:52 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Setting up reports and test is getting ready]]>
+            </line>
+            <line>
+              <![CDATA[Setting done- Test can be started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SetUpSuite -->
+        <test-method status="PASS" signature="FunctionalityTest1()[pri:0, instance:ReportForPlan.Testcase1@3234e239]" name="FunctionalityTest1" duration-ms="11" started-at="2020-02-17T10:52:52 IST" finished-at="2020-02-17T10:52:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FunctionalityTest1 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:ReportForPlan.Testcase1@3234e239]" name="getResult" is-config="true" duration-ms="8" started-at="2020-02-17T10:52:52 IST" finished-at="2020-02-17T10:52:52 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=FunctionalityTest1 status=SUCCESS method=Testcase1.FunctionalityTest1()[pri:0, instance:ReportForPlan.Testcase1@3234e239] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="FunctionalityTest2()[pri:0, instance:ReportForPlan.Testcase1@3234e239]" name="FunctionalityTest2" duration-ms="1" started-at="2020-02-17T10:52:52 IST" finished-at="2020-02-17T10:52:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FunctionalityTest2 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:ReportForPlan.Testcase1@3234e239]" name="getResult" is-config="true" duration-ms="0" started-at="2020-02-17T10:52:52 IST" finished-at="2020-02-17T10:52:52 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=FunctionalityTest2 status=SUCCESS method=Testcase1.FunctionalityTest2()[pri:0, instance:ReportForPlan.Testcase1@3234e239] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="FAIL" signature="FunctionalityTest3()[pri:0, instance:ReportForPlan.Testcase1@3234e239]" name="FunctionalityTest3" duration-ms="1" started-at="2020-02-17T10:52:52 IST" finished-at="2020-02-17T10:52:52 IST">
+          <exception class="junit.framework.AssertionFailedError">
+            <message>
+              <![CDATA[expected not same]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[junit.framework.AssertionFailedError: expected not same
+at junit.framework.Assert.fail(Assert.java:47)
+at junit.framework.Assert.failSame(Assert.java:271)
+at junit.framework.Assert.assertNotSame(Assert.java:257)
+at junit.framework.Assert.assertNotSame(Assert.java:264)
+at ReportForPlan.Testcase1.FunctionalityTest3(Testcase1.java:27)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- junit.framework.AssertionFailedError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FunctionalityTest3 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:ReportForPlan.Testcase1@3234e239]" name="getResult" is-config="true" duration-ms="3" started-at="2020-02-17T10:52:52 IST" finished-at="2020-02-17T10:52:52 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=FunctionalityTest3 status=FAILURE method=Testcase1.FunctionalityTest3()[pri:0, instance:ReportForPlan.Testcase1@3234e239] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:ReportForPlan.Testcase1@3234e239]" name="tearDown" is-config="true" duration-ms="303" started-at="2020-02-17T10:52:52 IST" finished-at="2020-02-17T10:52:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- ReportForPlan.Testcase1 -->
+    </test> <!-- Test11 -->
+  </suite> <!-- Suite11 -->
 </testng-results>
