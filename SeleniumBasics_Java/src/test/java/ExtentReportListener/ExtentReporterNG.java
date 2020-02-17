@@ -14,6 +14,7 @@ import org.testng.ITestContext;
 import org.testng.ITestResult;
 import org.testng.xml.XmlSuite;
 
+import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
@@ -23,9 +24,12 @@ public class ExtentReporterNG implements IReporter {
 
 	public void generateReport(List<XmlSuite> xmlSuites, List<ISuite> suites,
 			String outputDirectory) {
-		extent = new ExtentReports(outputDirectory + File.separator
-				+ "Extent.html", true);
-
+		//extent = new ExtentReports(outputDirectory + File.separator
+				//+ "Extent.html", true);
+		//extent=new ExtentReports(System.getProperty("user.dir")+"/Reports/relevantcodesReport.html", true);
+		extent=new ExtentReports(System.getProperty("user.dir")+"/Reports/ZeenyxWensitePlanReport.html", true);
+		
+		
 		for (ISuite suite : suites) {
 			Map<String, ISuiteResult> result = suite.getResults();
 
@@ -59,7 +63,7 @@ public class ExtentReporterNG implements IReporter {
 					test.log(status, result.getThrowable());
 				} else {
 					test.log(status, "Test " + status.toString().toLowerCase()
-							+ "ed");
+							+ "ed Successfully");
 				}
 
 				extent.endTest(test);
