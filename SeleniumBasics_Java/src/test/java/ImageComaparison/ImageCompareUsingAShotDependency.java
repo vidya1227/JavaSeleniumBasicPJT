@@ -1,4 +1,4 @@
-package AutomationHelpers;
+package ImageComaparison;
 
 import java.awt.image.BufferedImage;
 import java.io.File;

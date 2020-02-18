@@ -1,4 +1,4 @@
-package AutomationHelpers;
+package ImageComaparison;
 
 import java.io.File;
 
