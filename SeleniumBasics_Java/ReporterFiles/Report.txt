@@ -1,3 +1,1 @@
-----------------------------------------------------------------------
-02_24_2020_10_52_07----> Steps Performed - Print the Hello world text.
-02_24_2020_10_52_07----> Expected output - Hello world Text shall  be print.
+02_24_2020_12_59_57----> Pass - test is passed

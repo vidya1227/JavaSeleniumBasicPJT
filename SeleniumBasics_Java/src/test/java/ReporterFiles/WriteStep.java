@@ -1,5 +1,7 @@
 package ReporterFiles;
 
+import java.io.BufferedWriter;
+import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.text.DateFormat;
@@ -33,14 +35,20 @@ public class WriteStep {
 		System.out.println("StepsPerformed - " + StepsPerformed);
 		System.out.println("ExpectedOutput - " + ExpectedOutput);
 
-		String sFolderPath = "./ReporterFiles/Report.txt";
+		String sFolderPath = "./ReporterFiles/WriteStepReport.txt";
 
-		FileWriter fw = new FileWriter(sFolderPath);
+		FileWriter fw = new FileWriter(sFolderPath, true);
+		File src = new File(sFolderPath);
 
 		fw.write("----------------------------------------------------------------------"+"\n");
 		fw.write(GetCurrentDateTime() + "----> Steps Performed - " + StepsPerformed+"\n");
 		fw.write(GetCurrentDateTime() + "----> Expected output - " + ExpectedOutput+"\n");
-		fw.close();
+		
+	
+		BufferedWriter bufferFileWriter  = new BufferedWriter(fw);
+        fw.append("");
+        
+        fw.close();
 	}
 
 	// To get current date and time to the snapshot
