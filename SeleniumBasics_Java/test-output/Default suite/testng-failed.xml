@@ -3,12 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="VerificationInJavaSelenium.HardAssertion">
+      <class name="ReporterFiles.DemoTest">
         <methods>
-          <include name="test_UsingSoftAssertion"/>
-          <include name="test_UsingHardAssertion1"/>
+          <include name="DemoTest1"/>
         </methods>
-      </class> <!-- VerificationInJavaSelenium.HardAssertion -->
+      </class> <!-- ReporterFiles.DemoTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

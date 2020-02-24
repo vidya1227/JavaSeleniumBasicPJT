@@ -13,8 +13,6 @@ import org.testng.ISuiteResult;
 import org.testng.ITestContext;
 import org.testng.ITestResult;
 import org.testng.xml.XmlSuite;
-
-import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
@@ -28,8 +26,7 @@ public class ExtentReporterNG implements IReporter {
 				//+ "Extent.html", true);
 		//extent=new ExtentReports(System.getProperty("user.dir")+"/Reports/relevantcodesReport.html", true);
 		extent=new ExtentReports(System.getProperty("user.dir")+"/Reports/ZeenyxWensitePlanReport.html", true);
-		
-		
+				
 		for (ISuite suite : suites) {
 			Map<String, ISuiteResult> result = suite.getResults();
 
@@ -41,7 +38,6 @@ public class ExtentReporterNG implements IReporter {
 				buildTestNodes(context.getSkippedTests(), LogStatus.SKIP);
 			}
 		}
-
 		extent.flush();
 		extent.close();
 	}
@@ -65,12 +61,10 @@ public class ExtentReporterNG implements IReporter {
 					test.log(status, "Test " + status.toString().toLowerCase()
 							+ "ed Successfully");
 				}
-
 				extent.endTest(test);
 			}
 		}
 	}
-
 	private Date getTime(long millis) {
 		Calendar calendar = Calendar.getInstance();
 		calendar.setTimeInMillis(millis);

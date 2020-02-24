@@ -9,11 +9,11 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.Test;
 
 public class GetAllValuesFromTable {
-	
+
 	@Test
 	public static void GetAllValues_FromTable() throws Exception {
 		try {
-			
+
 			// Create a new instance of the Firefox driver
 			WebDriver driver = new FirefoxDriver();
 
@@ -23,12 +23,14 @@ public class GetAllValuesFromTable {
 			// Print a Log In message to the screen
 			System.out.println("Successfully opened the wikipedia EZTABLE website in Firefox browser \n");
 
-			System.out.println("The table values are ------------------------------------------------------------------------\n");
-			 //Get all Values or text from table
-			List<WebElement> AllValues = driver.findElements(By.xpath("//*[@id='mw-content-text']/div/table[4]/tbody/tr/td"));
+			System.out.println(
+					"The table values are ------------------------------------------------------------\n");
+			// Get all Values or text from table
+			List<WebElement> AllValues = driver
+					.findElements(By.xpath("//*[@id='mw-content-text']/div/table[4]/tbody/tr/td"));
 			for (WebElement element : AllValues) {
-				String sAllValues= element.getText();
-				System.out.println(sAllValues +"\n");
+				String sAllValues = element.getText();
+				System.out.println(sAllValues + "\n");
 			}
 
 			// Wait for 5 Sec
@@ -40,6 +42,5 @@ public class GetAllValuesFromTable {
 			System.out.println(e.getMessage());
 		}
 	}
-	
 
 }

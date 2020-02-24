@@ -12,47 +12,35 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 public class MultiBrowserTest {
-
 	WebDriver driver = null;
 	String sProjectPath = System.getProperty("user.dir");
 
 	@Parameters("sbrowserName")
 	@BeforeTest
-	
 	public void setUp(String sbrowserName) {
 		System.out.println("Browser name is : " + sbrowserName);
-		System.out.println("Thread Id is : "+ Thread.currentThread().getId());
-
+		System.out.println("Thread Id is : " + Thread.currentThread().getId());
 		if (sbrowserName.equalsIgnoreCase("firefox")) {
-			
 			driver = new FirefoxDriver();
-
-		}else if (sbrowserName.equalsIgnoreCase("chrome")) {
-			
+		} else if (sbrowserName.equalsIgnoreCase("chrome")) {
 			System.setProperty("webDriver.chrome.driver", "./Drivers/chromedriver.exe");
 			driver = new ChromeDriver();
-
-		}else if (sbrowserName.equalsIgnoreCase("ie")) {
-			
-			 DesiredCapabilities caps = new DesiredCapabilities();
-			 caps.setCapability(InternetExplorerDriver.IE_ENSURE_CLEAN_SESSION, true);
-			 caps.setCapability(CapabilityType.ACCEPT_SSL_CERTS, true);
-			 caps.setCapability(InternetExplorerDriver.IGNORE_ZOOM_SETTING, true);
-			 caps.setCapability(InternetExplorerDriver.NATIVE_EVENTS, false);
-			 caps.setCapability(InternetExplorerDriver.INITIAL_BROWSER_URL, "");
+		} else if (sbrowserName.equalsIgnoreCase("ie")) {
+			DesiredCapabilities caps = new DesiredCapabilities();
+			caps.setCapability(InternetExplorerDriver.IE_ENSURE_CLEAN_SESSION, true);
+			caps.setCapability(CapabilityType.ACCEPT_SSL_CERTS, true);
+			caps.setCapability(InternetExplorerDriver.IGNORE_ZOOM_SETTING, true);
+			caps.setCapability(InternetExplorerDriver.NATIVE_EVENTS, false);
+			caps.setCapability(InternetExplorerDriver.INITIAL_BROWSER_URL, "");
 			System.setProperty("webDriver.ie.driver", "./Drivers/IEDriverServer.exe");
 			driver = new InternetExplorerDriver();
-
 		}
-
 	}
 
 	@Test
 	public void Test1() throws Exception {
 		driver.get("https://www.google.com/");
-		
 		System.out.println("Successfully opened the google website ");
-		
 		System.out.println(driver.getTitle());
 		Thread.sleep(4000);
 	}
@@ -61,6 +49,5 @@ public class MultiBrowserTest {
 	public void tearDown() {
 		driver.quit();
 		System.out.println("Test Completed Successfully");
-
 	}
 }

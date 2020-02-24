@@ -29,7 +29,7 @@ public class GetPartialTextFromTable {
 			// Print a Log In message to the screen
 			System.out.println("Successfully opened the wikipedia EZTABLE website in Firefox browser \n");
 
-			System.out.println("The Partial matched table values are ------------------------------------------------------------------------\n");
+			System.out.println("The Partial matched table values are ---------------------------------\n");
 			
 			
 			 //Get all partial matches Values or text from table
