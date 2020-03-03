@@ -6,7 +6,6 @@
 		<listener class-name="ExtentReportListener.ExtentReporterNG" />
 	</listeners>
 
-
 	<test name="Demo Test Cases for Report">
 		<classes>
 			<class name="ReportForPlan.Testcase1"/>
@@ -14,4 +13,5 @@
 		</classes>
 	</test>
 </suite>
+
 

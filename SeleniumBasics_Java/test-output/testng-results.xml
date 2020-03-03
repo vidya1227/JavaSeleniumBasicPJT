@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="956" started-at="2020-02-24T16:59:10 IST" finished-at="2020-02-24T16:59:11 IST">
+  <suite name="Default suite" duration-ms="1275" started-at="2020-02-26T12:51:43 IST" finished-at="2020-02-26T12:51:44 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="956" started-at="2020-02-24T16:59:10 IST" finished-at="2020-02-24T16:59:11 IST">
+    <test name="Default test" duration-ms="1275" started-at="2020-02-26T12:51:43 IST" finished-at="2020-02-26T12:51:44 IST">
       <class name="ReporterFiles.DemoTest">
-        <test-method status="PASS" signature="DemoTest1()[pri:0, instance:ReporterFiles.DemoTest@7d70d1b1]" name="DemoTest1" duration-ms="591" started-at="2020-02-24T16:59:10 IST" finished-at="2020-02-24T16:59:10 IST">
+        <test-method status="PASS" signature="DemoTest1()[pri:0, instance:ReporterFiles.DemoTest@7d70d1b1]" name="DemoTest1" duration-ms="854" started-at="2020-02-26T12:51:43 IST" finished-at="2020-02-26T12:51:44 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DemoTest1 -->
-        <test-method status="PASS" signature="DemoTest2()[pri:0, instance:ReporterFiles.DemoTest@7d70d1b1]" name="DemoTest2" duration-ms="325" started-at="2020-02-24T16:59:10 IST" finished-at="2020-02-24T16:59:11 IST">
+        <test-method status="PASS" signature="DemoTest2()[pri:0, instance:ReporterFiles.DemoTest@7d70d1b1]" name="DemoTest2" duration-ms="390" started-at="2020-02-26T12:51:44 IST" finished-at="2020-02-26T12:51:44 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DemoTest2 -->

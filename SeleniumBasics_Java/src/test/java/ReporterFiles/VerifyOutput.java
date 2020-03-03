@@ -52,6 +52,7 @@ public class VerifyOutput {
      }
 	 return ScreenshotPath;
 	}
+	
 	/*//*************************Capture Snapshot Start**********************************************************
 		public static String CaptureScrrenshot(WebDriver driver)
 		{
@@ -72,7 +73,6 @@ public class VerifyOutput {
 			return ScreenshotPath;
 		}*/
 			
-
 	public void Verify_Output(Object ExpectedOutput, Object ActualOutput, String SuccessMessage, String FailureMessage,
 			Boolean bNotcontinue) throws Exception {
 		bNotcontinue = true;

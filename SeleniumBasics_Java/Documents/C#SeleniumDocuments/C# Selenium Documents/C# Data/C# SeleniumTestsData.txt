@@ -1,0 +1,15 @@
+\\\\\\\\\\\\\\\\\\\\\\\Run from command line command for visual studio C# selenium
+nunit3-console.exe D:\VidyaWorkspace\SeleniumWorkspace\SeleniumC#\NaukriWebsiteNUnit3\bin\Debug\NaukriWebsiteNUnit3.dll
+
+*****************************************************************************
+C:\Windows\Microsoft.NET\Framework\v4.0.30319
+/////////MS build exe path//////////////////////
+*****************************************************************************
+
+
+
+nunit3-console.exe D:\NUnit.Console-3.10.0\bin\net20\mock-assembly.dll
+
+nunit3-console.exe D:\VidyaWorkspace\SeleniumWorkspace\SeleniumC#\NaukriWebsiteNUnit3\Testcases\NaukriJobs.cs\mock-assembly.dll
+
+"D:\VidyaWorkspace\SeleniumWorkspace\SeleniumC#\NaukriWebsiteNUnit3\Testcases\NaukriJobs.cs"

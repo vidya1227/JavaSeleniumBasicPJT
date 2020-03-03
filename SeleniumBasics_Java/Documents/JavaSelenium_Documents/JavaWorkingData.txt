@@ -1,0 +1,61 @@
+Url to download
+http://download.eclipse.org/egit/updates
+
+Command Line For Maven Selenium project
+Download apache maven to run from command line test in java selenium
+------------------------------------------
+https://maven.apache.org/download.cgi
+
+http://maven.apache.org/surefire/maven-surefire-plugin/examples/testng.html
+
+mvn test -Dtest=classname
+
+mvn test -Dtest=ZeennyxInfoAboutATTestcase
+
+mvn clean test -DtestngFile=testng2.xml
+
+
+Reference --------->>>>>>https://youtu.be/lQCyVy-g1e8
+	 ------->>>>>>>>https://youtu.be/WIiFTb9RMNw  --Command line vdos
+
+https://youtu.be/gT9qnZi3f74 -->> jenkins vdo for java selenium
+----------------------------------------------------------
+
+XLST Report  //reffered video is https://youtu.be/ZNkfMDdjGgo
+
+https://ant.apache.org/bindownload.cgi?Preferred=ftp://apache.mirrors.pair.com/  --->>Download Apache ant and add this to environment variables and check version to m,ake sure
+abt -version------------------------
+
+
+Go to java project location and enter the commands------------
+ant  ----> give ant command to build your project
+ant generateReport ----> give this command to generate ur XLST report for your project
+
+
+https://www.abodeqa.com/emailing-xslt-report-in-webdriverjava-using-ant-build-xml-automatically/----->>Refer this to send mail through report
+----------------------------------------
+
+extent relavent code report for Java selenium
+https://youtu.be/zSjwgjVl4P4 --------->>>> Refer this link
+
+----------------*******************************************************************************************************************---------------------------
+
+http://www.testerlogic.com/assert-verify-logic-selenium-webdriver/
+https://youtu.be/771f4VJ7HLg
+
+
+All plugins of jenkins Download URL
+--------------------------------------------
+https://updates.jenkins-ci.org/download/plugins/maven-plugin/
+https://updates.jenkins-ci.org/download/plugins/
+
+
+
+java selenium Referenced vdos
+-------------------------------------------
+https://www.youtube.com/watch?v=vFXL4nMWvXI&list=PL6flErFppaj0WwNOMFeXPVlNCDuJyPYFi
+
+
+
+ZeenyxWebsite_JavaSelenium/pom.xml
+

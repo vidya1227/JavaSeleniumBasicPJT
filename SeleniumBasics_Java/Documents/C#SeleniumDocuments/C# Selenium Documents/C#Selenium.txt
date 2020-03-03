@@ -1,0 +1,50 @@
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\MSTest.exe"
+
+msTest.exe path
+
+
+
+
+MSTest.exe /testcontainer:"D:\VidyaWorkspace\SeleniumWorkspace\SeleniumC#\NaukriWebsiteNUnit3\bin\Debug\NaukriWebsiteNUnit3.dll" /Category:Smoke /resultsfile:C:\Users\vidya\Desktop\CSharpResultMSTest.trx
+
+
+
+
+MSTest.exe /testcontainer:"D:\VidyaWorkspace\SeleniumWorkspace\SeleniumC#\NaukriWebsiteNUnit3\bin\Debug\NaukriWebsiteNUnit3.dll"
+/Tests:Test1,Test2 /resultsfile:C:\Users\vidya\Desktop\CSharpResultMSTest.trx
+
+
+
+"D:\VidyaWorkspace\SeleniumWorkspace\SeleniumC#\ZeenyxWebsite_CSharp\bin\Debug\ZeenyxWebsite_CSharp.dll"
+
+MSTest.exe /testcontainer:"D:\VidyaWorkspace\SeleniumWorkspace\SeleniumC#\ZeenyxWebsite_CSharp\bin\Debug\ZeenyxWebsite_CSharp.dll"
+/tests:Test1,Test2 /resultsfile:C:\Users\vidya\Desktop\CSharpResultMSTest.trx
+
+
+nunit3.console.exe /testcontainer:"D:\VidyaWorkspace\SeleniumWorkspace\SeleniumC#\ZeenyxWebsite_CSharp\bin\Debug\ZeenyxWebsite_CSharp.dll"
+/tests:Test1,Test2 /resultsfile:C:\Users\vidya\Desktop\CSharpResultMSTest.trx
+
+
+nunit3-console.exe "D:\VidyaWorkspace\SeleniumWorkspace\SeleniumC#\ZeenyxWebsite_CSharp\bin\Debug\ZeenyxWebsite_CSharp.dll" /run:ZeenyxWebsite_CSharp.ZeenyxTestPlan.Test1
+
+
+
+nunit3-console.exe "D:\VidyaWorkspace\SeleniumWorkspace\SeleniumC#\ZeenyxWebsite_CSharp\bin\Debug\ZeenyxWebsite_CSharp.dll" 
+/testcontainer:"D:\VidyaWorkspace\SeleniumWorkspace\SeleniumC#\ZeenyxWebsite_CSharp\bin\Debug\ZeenyxWebsite_CSharp.dll" /test:ZeenyxWebsite_CSharp.ZeenyxTestPlan.Test1
+
+
+*****************************************************************************************************************************************************************************************************
+
+
+nunit3-console.exe "D:\VidyaWorkspace\SeleniumWorkspace\SeleniumC#\ZeenyxWebsite_CSharp\ZeenyxWebsite_CSharp.sln" /test:ZeenyxWebsite_CSharp.InfoReqTestcase1.Test1
+
+
+
+nunit3-console.exe "D:\VidyaWorkspace\SeleniumWorkspace\SeleniumC#\ZeenyxWebsite_CSharp\bin\Debug\ZeenyxWebsite_CSharp.dll" /test:ZeenyxWebsite_CSharp.InfoReqTestcase1.Test1
+
+
+
+
+
+
+nunit3-console.exe "D:\VidyaWorkspace\SeleniumWorkspace\SeleniumC#\ZeenyxWebsite_CSharp\bin\Debug\ZeenyxWebsite_CSharp.dll" /test:ZeenyxWebsite_CSharp.TestPlan 
